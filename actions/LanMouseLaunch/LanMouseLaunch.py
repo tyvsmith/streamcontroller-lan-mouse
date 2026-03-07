@@ -105,6 +105,7 @@ class LanMouseLaunch(ActionBase):
         return self.get_settings().get("show_label", True)
 
     def on_ready(self):
+        self._prev_running = None
         self._update_status()
 
     def on_tick(self):

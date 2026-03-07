@@ -127,6 +127,7 @@ class LanMouseToggle(ActionBase):
         return self.get_settings().get("show_hostname", True)
 
     def on_ready(self):
+        self._prev_state = None
         self._update_status()
 
     def on_tick(self):
