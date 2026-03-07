@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "thumbnail": "store/Thumbnail.png",
+    "id": "me_tysmith_LanMouse",
+    "name": "Lan Mouse Control",
+    "author": "Ty Smith",
+    "github": "https://github.com/tyvsmith/streamcontroller-lan-mouse",
+    "descriptions": {
+        "en_US": "Control lan-mouse from your Stream Deck. Launch the daemon, toggle client connections, and see live status."
+    },
+    "short-descriptions": {
+        "en_US": "Lan-mouse daemon and client control"
+    },
+    "tags": ["Utility", "KVM", "lan-mouse"],
+    "minimum-app-version": "1.0.0",
+    "app-version": "1.4.11-beta",
+    "description": "Control lan-mouse from your Stream Deck. Launch the daemon, toggle client connections, and see live status.",
+    "short-description": "Lan-mouse daemon and client control"
+}
